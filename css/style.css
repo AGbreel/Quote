@@ -1,0 +1,53 @@
+body {
+    font-family: "Pacifico", cursive;
+}
+
+section {
+    height: 100vh;
+    background-image: url(../images/bg3.webp);
+    background-position: left bottom;
+    background-size: cover;
+}
+
+section .container {
+    /* background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4,
+     #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1); */
+     background-color: rgba(0, 0, 0, 0.6);
+     min-height: 80%;
+}
+
+section .container h1 {
+    width: fit-content;
+}
+
+section .container h1::after {
+    content: '';
+    width: 50%;
+    height: 2px;
+    background-color: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translatex(-50%);
+}
+
+section .container p {
+    font-size: 35px;
+}
+
+section .container button {
+    margin-top: 50px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    border: 2px solid black;
+    transition: 0.5s;
+    
+}
+
+section .container button:hover {
+   border-color:#cec6c6;
+}
+
+#authorOutput {
+    margin-bottom: 80px;
+}
